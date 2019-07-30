@@ -1,10 +1,10 @@
 spring.profiles.active=dev
 
-aws.access_key_id=
-aws.secret_access_key=
+aws.access_key_id=awskey
+aws.secret_access_key=aws secret key
 
-default.sender=
-default.recipient=
+default.sender=Email
+default.recipient=email teste
 
 
 jwt.secret=SequenciaDeCaracteresParaAssinarToken
@@ -12,7 +12,7 @@ jwt.expiration=86400000
 
 
 
-s3.bucket=
+s3.bucket=nomedoS3Buket
 s3.region=us-east-2
 
 img.prefix.cliente.profile=cp
